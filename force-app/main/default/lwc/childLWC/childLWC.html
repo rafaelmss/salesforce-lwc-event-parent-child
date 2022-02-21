@@ -1,0 +1,10 @@
+<template>
+    Enter value: <lightning-input 
+                    type="text" 
+                    value={strInput}
+                    onchange={handleChange}></lightning-input> <br>
+    <lightning-button 
+        variant="brand" 
+        label="Pass to Parent" 
+        onclick={passToParent}></lightning-button>
+</template>
